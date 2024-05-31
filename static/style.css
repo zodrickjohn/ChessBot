@@ -6,7 +6,6 @@ p {
 }
 
 body {
-    padding-top: 20px;
     align-items: center;
     background-image: url("https://wallpapercave.com/wp/wp7720762.gif");
     background-size: cover;
@@ -14,7 +13,9 @@ body {
 }
 
 #board {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     max-width: 600px;
     min-width: 600px;
     margin-left: -50px;
@@ -38,7 +39,7 @@ body {
 #secondWindow {
     padding: 10px;
     max-width: 800px;
-    margin: 10px;
+    margin-top: -20px;
     min-height: 370px;
     background-color: rgba(205, 11, 111, 0.4); 
     color: rgba(255, 255, 255, 1); 
@@ -69,7 +70,7 @@ body {
 
 footer {
     color:rgb(223, 247, 8) !important;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px; 
     font-family: cursive;
     font-weight: bolder;
