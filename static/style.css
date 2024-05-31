@@ -1,0 +1,86 @@
+body {
+    padding-top: 20px;
+    align-items: center;
+    background-image: url("https://wallpapercave.com/wp/wp7720762.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#board {
+    padding: 10px;
+    max-width: 600px;
+    min-width: 600px;
+    margin-left: -50px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(236, 9, 127);
+    color: white !important;
+}
+/* .navbar {
+    background-color: red;
+} */
+
+/* #logo {
+    position: relative;
+    left: 10%;
+} */
+
+/* #secondWindow {
+    padding: 10px;
+    max-width: 800px;
+    margin: 10px;
+    min-height: 370px;
+    background-color: rgb(205, 11, 111);
+    color: white;
+}
+
+#moveTable {
+    width: 100%;
+    max-height: 250px;
+    overflow: auto;
+    background-color: rgb(205, 11, 111);
+    color: white;
+} */
+
+#controls {
+    position: absolute;
+    bottom: -30px;
+}
+
+#secondWindow {
+    padding: 10px;
+    max-width: 800px;
+    margin: 10px;
+    min-height: 370px;
+    background-color: rgba(205, 11, 111, 0.4); /* Set initial opacity to 0.5 */
+    color: rgba(255, 255, 255, 1); /* Set text color to full opacity */
+}
+
+#moveTable {
+    width: 100%;
+    max-height: 250px;
+    overflow: auto;
+    color: rgba(255, 255, 255, 1); /* Set text color to full opacity */
+    transition: opacity 1s; /* Smooth transition for opacity change */
+    font-weight: bolder;
+}
+
+#moveTable tr:hover {
+    background-color: rgba(205, 11, 111, 1); /* Change opacity to 1 on hover */
+}
+
+#sel1{
+    background-color: red;
+    color: white;
+}
+
+#sel1:hover{
+    background-color: rgb(236, 9, 127);
+    color: white;
+}
