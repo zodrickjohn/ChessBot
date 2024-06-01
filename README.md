@@ -1,4 +1,4 @@
-![ChessBot Z](Screenshot (287).png)
+![ChessBot Z](https://github.com/zodrickjohn/ChessBot-Z/blob/main/Screenshot%20(287).png)
 
 ## How It Works
 
