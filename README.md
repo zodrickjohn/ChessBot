@@ -1,3 +1,5 @@
+![ChessBot Z](Screenshot (287).png)
+
 ## How It Works
 
 ChessBot Z utilizes a client-server architecture, with the frontend handling user interaction and the backend managing game logic and AI evaluation. Upon making a move, the frontend sends the current game state to the Flask server, which utilizes python-chess to evaluate potential moves using advanced algorithms. The best move is then sent back to the frontend, updating the board state for continued gameplay.
